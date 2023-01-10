@@ -10,7 +10,6 @@ function App() {
       <Topbar />
       <Navbar />
       <Mainsection />
-            
     </div>
   );
 }
