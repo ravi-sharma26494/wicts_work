@@ -1,0 +1,101 @@
+.usermgmt {
+  background: #f8f7fb;
+  margin-left: 267px;
+  padding: 15px 3px;
+}
+.action__btn {
+  width: 280px;
+  height: 75px;
+  border-radius: 10px;
+  background: #87a5a6;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.action__btn:hover{
+    cursor: pointer;
+}
+.usermgmt__content {
+  background: #ffffff;
+  border-radius: 6px;
+}
+/*-----*/
+/* add user component css */
+.adduser_overlay {
+  min-height: 100vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner {
+  position: fixed;
+  width: 551px;
+  height: 314px;
+  left: 289px;
+  top: 150px;
+  background: #ffffff;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 10px;
+}
+[class*="adduser_"]
+  {
+    width: 100%;
+    display: flex;
+}
+.adduser_title > h3{
+    flex: 1;
+    text-align: center;
+}
+.adduser_title > h3,span{
+    color: #2C2D2E;
+    font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+}
+.adduser_title > span:hover{
+    cursor: pointer;
+}
+.adduser_input, .adduser_btn{
+    justify-content: center;
+    align-items: center;
+}
+input{
+width: 406px;
+height: 52px;
+left: 362px;
+top: 323px;
+background: #F8F7FB;
+border-radius: 12px;
+padding: 0 15px;
+
+}
+input:focus{
+    outline: 2px solid #87A5A6;
+}
+.adduser_btn > button{
+    width: 234px;
+height: 48.75px;
+background: #87A5A6;
+border: 0.65px solid #87A5A6;
+border-radius: 6.5px;
+color: #FFFFFF;
+}
+.adduser_btn > button:hover{
+    cursor: pointer;
+}
