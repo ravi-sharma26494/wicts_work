@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  font-family: "Inter";
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+}
+.userlist {
+  background: #f8f7fb;
+  margin-left: 267px;
+  overflow-x: auto;
+}
+table {
+  border-collapse: collapse;
+  padding: 15px 10px;
+  width: 95%;
+  margin-left: 20px;
+}
+
+.userlist__content {
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin: 10px 8px;
+}
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+    font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+color: #2c2d2e;
+}
+td {
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #747678;
+  border-bottom: 0.5px solid #747678;
+}
+tr > td > img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+tr>th{
+    padding-bottom: 30px;
+}

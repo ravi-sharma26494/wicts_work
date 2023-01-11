@@ -1,0 +1,28 @@
+.databases{
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    background: #F8F7FB;
+}
+.actions{
+    width: 280px;
+    height: 75px;
+    border-radius: 10px;
+    /* background: #87A5A6; */
+    text-align: center;
+    /* color:#FFFFFF; */
+    text-decoration: none;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active{
+    background: #F8F7FB;
+    color: #87A5A6;
+    border: 1PX solid #87A5A6;
+}
+.inactive{
+    background: #87A5A6;
+    color: #FFFFFF;
+}
