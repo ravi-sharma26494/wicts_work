@@ -1,0 +1,7 @@
+.userstatus__conatiner{
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

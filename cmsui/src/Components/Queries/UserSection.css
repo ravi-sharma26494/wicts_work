@@ -1,0 +1,55 @@
+.usersection__conatiner{
+    margin-top: 15px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 18px;
+}
+.usersection__items--conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.usersection__items--top, .usersection__items--bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 5px;
+}
+.usersection__user--details,.bottom__query--section{
+    max-width: 60%;
+}
+.bottom__query--section{
+    display: flex;
+    padding: 2px 5px;
+}
+.bottom__btns{
+    display: flex;
+    width: calc(100%-60%);
+    
+}
+.query__buttons{
+width: 138px;
+height: 38px;
+background: #87A5A6;
+border-radius: 5.0134px;
+color: #FFFFFF;
+margin-left: 5px;
+}
+.query__buttons:hover{
+    cursor: pointer;
+}
+span,label{
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+}
+span{
+    color: #747678;
+}
+label{
+    color: #2C2D2E;
+}
+

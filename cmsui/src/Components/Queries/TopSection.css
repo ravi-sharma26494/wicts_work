@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+.topesction__container {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topesction__single--conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 180px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-left: 8px;
+}

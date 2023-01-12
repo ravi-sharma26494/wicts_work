@@ -4,9 +4,15 @@ import './Userlist.css'
 import Data from './dummy_user.json';
 const Userlist = () => {
     const [data, setData] = useState([]);
-    useEffect(()=>{
+    const fetchData = ()=>{
         setData(Data);
-    },[])
+    }
+    useEffect(()=>{
+        const loadData = async ()=>{
+            const myData = await fetchData();
+        };
+        loadData();
+    },[]);
   return (
     <>
     <Database />
@@ -21,7 +27,7 @@ const Userlist = () => {
           <th>Image</th>
           <th>Action</th>
         </tr>
-        {data.map((d)=>(
+        {data && data.map((d)=>(
 
         <tr key = {d.id}className="userlist__content">
           <td>{d.name}</td>
