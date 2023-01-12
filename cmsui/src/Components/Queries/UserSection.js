@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+import Status from "./QueryStatus/Status";
 import './UserSection.css'
 
+
 const UserSection = () => {
-    const handleClick = ()=>{
-        alert("You clicked okay");
-    }
+    const [show, setShow] = useState(false);
   return (
+    <>
     <div className="usersection__conatiner">
       <div className="usersection__items--conatiner">
         <div className="usersection__items--top">
@@ -29,11 +30,18 @@ const UserSection = () => {
           </div>
           <div className="bottom__btns">
             <button type="button" className="query__buttons tag">Tag</button>
-            <button type="button" className="query__buttons status" onClick={handleClick}>Status</button>
+            <button type="button" className="query__buttons status" onClick={()=>{
+                    setShow(true);
+                      
+                    }}>Status</button>
           </div>
         </div>
       </div>
     </div>
+
+  {/* Status Overlay Component */}
+  <Status show={show}  onClose = {()=>setShow(false)}/>
+    </>
   );
 };
 

@@ -4,10 +4,11 @@ import Database from './Components/Database/Database';
 import Mainsection from './Components/Mainsection/Mainsection';
 import Layout from './Components/Layout/Layout';
 import UserManagement from './Components/UserManagement/UserManagement';
-import Analytics from './Components/Analytics/Analytics';
+import Analytics from './Components/Analytics/Main/Analytics';
 import Queries from './Components/Queries/Queries';
 import Userlist from './Components/Database/UserList/Userlist';
 import Merchantlist from'./Components/Database/MerchantList/Merchantlist'
+
 
 function App() {
   return (

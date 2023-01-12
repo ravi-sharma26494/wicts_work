@@ -1,0 +1,19 @@
+.charts__conatiner{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.line__chart{
+    width: 600px;
+    height: 300px;
+}
+.pie__chart{
+    width: calc(100%-600px);
+    height: 300px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
